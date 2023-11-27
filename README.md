@@ -1,0 +1,2 @@
+# informatikz.github.io
+personal
