@@ -1,3 +1,4 @@
-theme: jekyll-theme-minimal
+#theme: jekyll-theme-minimal
+remote_theme: informatikz/plainwhite-jekyll
 title: hari's homepage
 description: i will update news here 
