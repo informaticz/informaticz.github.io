@@ -6,6 +6,7 @@ baseurl: ""
 remote_theme: informatikz/plainwhite-jekyll
 
 plainwhite:
+  title: hari's homepage
   name: hari sankar
   tagline: Naval Architect Developer. Designer
   portfolio_image: "assets/capture.png"
