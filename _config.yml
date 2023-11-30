@@ -1,6 +1,6 @@
 title: hari's homepage
 author: hari sankar
 email: your-email@domain.com
-theme: jekyll-theme-minimal
+#theme: jekyll-theme-minimal
 baseurl: ""
 remote_theme: informatikz/plainwhite-jekyll
