@@ -15,7 +15,7 @@ github is the top website for hosting our git projects also provides social netw
 
 *_Installation instructions_*
 In windows download the installer from [git website](https://git-scm.com/download/win).
-Git is to be installed using below command in Mac OS
+Git is to be installed using below command in Mac OS 
 
 ``` sh
 brew install git
@@ -28,7 +28,7 @@ sudo apt install git
 
 *_ Init*_ 
 
-You navigate yourself to the root folder of the project.
+You navigate yourself to the root folder of the project.s
 Once you are inside the folder , run the below command to initiate git on that folder
 git will create a .git folder inside the folder. 
 All the generated content used by git to track will generated and stored inside .git folder.
@@ -55,9 +55,9 @@ git push
 git checkout --orphan newBranch
 git add -A  # Add all files and commit them
 git commit
-git branch -D master  # Deletes the master branch
-git branch -m master  # Rename the current branch to master
-git push -f origin master  # Force push master branch to github
+git branch -D main  # Deletes the master branch
+git branch -m main  # Rename the current branch to master
+git push -f origin main  # Force push master branch to github
 git gc --aggressive --prune=all     # remove the old files
 ```
 
