@@ -3,7 +3,7 @@ author: hari sankar
 email: your-email@domain.com
 #theme: jekyll-theme-minimal
 baseurl: ""
-remote_theme: nformatic/plainwhite-jekyll
+remote_theme: informaticz/plainwhite-jekyll
 
 plainwhite:
   title: hari's homepage
