@@ -1,4 +1,4 @@
-# [nformatic.github.io](nformatic.github.io)
+# [informaticz.github.io](nformatic.github.io)
 personal
 
 
