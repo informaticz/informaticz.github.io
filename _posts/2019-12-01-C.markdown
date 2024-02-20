@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "C basics"
+title:  "C"
 date:   2019-11-30 12:50:09 +0400
 categories: c notes
 ---
@@ -28,11 +28,11 @@ Compiler produces an output binary suitable for the target environment which can
 
 In big projects where many source files are present. The source files are compiled together sequentially in a particular order to obtain what is called object files. Object files will then be linked to make the binary file of the program.
 
-Many people can edit code in  basic text editor such as notepad. 
+Many people can edit code in  basic text editor such as notepad.
 
 Advanced editors like emacs support the programmer by code highlighting, syntax auto completion etc.
 
-Heavy software like Visual Studio., all what we do is editing the source. 
+Heavy software like Visual Studio., all what we do is editing the source.
 
 
 
@@ -44,7 +44,7 @@ gcc is a great c compiler , Apple has switched from gcc to clang as their main c
 
 ###  first program - [K&R]
 
-Write a first program to print hello world to the screen. 
+Write a first program to print hello world to the screen.
 
 
 ``` c
@@ -59,12 +59,12 @@ int main()  {
 A statement is the elemental unit of a program.
 Its syntax has to be correct as per the programming language.
 Each statement is ended by ' ; '
-A collection of statements is called a function. 
+A collection of statements is called a function.
 A program must have atleast one function called main to be a valid c program.
 
 ### comments
-comments are ignored by the compiler. 
-comments are spaces inside the code to where additional descriptions are made . 
+comments are ignored by the compiler.
+comments are spaces inside the code to where additional descriptions are made .
 we also use comment mechanism to selectively turn on and turn off parts of code during compilations etc.
 comments are removed during the preprocessing process.
 
@@ -73,8 +73,8 @@ comments are removed during the preprocessing process.
 // Every thing right of // in a program is ignored by the compiler.
 
 /*
-this is a multiline comment  
-Do not try to nest multiline  comments. it never works 
+this is a multiline comment
+Do not try to nest multiline  comments. it never works
 */
 ```
 
@@ -85,19 +85,19 @@ Preprocessing is the first stage of compilation.
 It textual replacement of the Preprocessing directive line with its expansion (expands into a header file)
 ```c
 #include <stdio.h>        // pre processor substitutes this line by including  stdio.h header file (a file of declrations) by looking in  default header directories
-#include "path/to/base.h" //substitutes this line by including file base.h 
-#define x 10             //the space in between does not matter 
-#undef x                //undefines x as 10 
+#include "path/to/base.h" //substitutes this line by including file base.h
+#define x 10             //the space in between does not matter
+#undef x                //undefines x as 10
 #define x 20            //redefines  x as 20
 ```
-### control flow using if 
+### control flow using if
 ``` c
 # include <stdio.h>
-int main()  {   
+int main()  {
     int i = 1;
 if (i>0)
     printf("value of i is %d",i);
-    else 
+    else
     printf("value of i is invalid");
 }
 ```
